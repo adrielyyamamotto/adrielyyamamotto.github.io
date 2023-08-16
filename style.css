@@ -22,8 +22,7 @@ body {
     font-weight: bolder;
     font-size: 30px;
     color: white;
-    text-shadow: 0 0 10px #c0bfbf, 0 0 15px #720946;;
-/*    text-shadow: black 1px .5px; */
+    text-shadow: 0 0 10px #c0bfbf, 0 0 15px #720946;
     margin-bottom: 5px;
 }
 
@@ -40,12 +39,5 @@ body {
 }
 
 .redes a {
-        text-decoration: none;
-    color: #ffffff;
     text-shadow: #720946 .5px .5px;
-}
-
-.redes i {
-    height: 50px;
-    width: 50px;
 }
