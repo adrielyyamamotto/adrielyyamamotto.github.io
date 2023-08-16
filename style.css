@@ -39,13 +39,29 @@ body {
     padding-top: 20px;
 }
 
-.redes a {
-        text-decoration: none;
+.ph {
+    padding: 5px;
+    height: 200px;
+    width: 200px;
     color: #ffffff;
-    text-shadow: #720946 .5px .5px;
+    background-color: #720946;
+    box-shadow: 0 0 10px #ffffff, 0 0 15px #720946;
+    border-radius: 100%;
 }
 
-.redes i {
-    height: 50px;
-    width: 50px;
+.icon {
+    display: inline-block;
+    margin: 3px;
+}
+
+.icon a {
+    overflow: hidden;
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: #720946 .5px .5px;
+    cursor: pointer;
+}
+
+.icon:hover {
+    scale: 1.2;
 }
