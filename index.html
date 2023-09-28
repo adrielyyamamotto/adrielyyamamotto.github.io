@@ -8,47 +8,103 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="inicio">
-        <div class="imagem">
-            <img src="img/profile.jpg" alt="foto-perfil">
-        </div>
-        <div class="dados">
-            <p class="nome">Adriely Yamamotto</p>
-            <p class="subtitulo">Dev | Front-End</p>
-        </div>
-        <div class="redes">
-            <div class="icon">
-                <a href="www.linkedin.com/" target="_blank"><i class="ph ph-linkedin-logo"></i></a>
-                <span><a href="www.linkedin.com/" target="_blank">Linkedin</a></span>
+    <header id="home">
+        <div class="inicio">
+            <div class="imagem">
+                <img src="img/profile.jpg" alt="foto-perfil">
             </div>
-            <div class="icon">
-                <a href="www.github.com/adrielyyamamotto" target="_blank"><i class="ph ph-github-logo"></i></a>
-                <span><a href="www.github.com/adrielyyamamotto" target="_blank">Github</a></span>
+            <div class="dados">
+                <p class="nome">Adriely Yamamotto</p>
+                <p class="subtitulo">Dev | Front-End</p>
             </div>
-            <div class="icon">
-                <a href="www.instagram.com/adrielyyamamotto" target="_blank"><i class="ph ph-instagram-logo"></i></a>
-                <span><a href="www.instagram.com/adrielyyamamotto" target="_blank">Instagram</a></span>
+            <div class="redes">
+                <div class="icon">
+                    <a href="www.linkedin.com/" target="_blank"><i class="ph ph-linkedin-logo"></i></a>
+                    <span><a href="www.linkedin.com/" target="_blank">Linkedin</a></span>
+                </div>
+                <div class="icon">
+                    <a href="https://github.com/adrielyyamamotto" target="_blank"><i class="ph ph-github-logo"></i></a>
+                    <span><a href="https://github.com/adrielyyamamotto" target="_blank">Github</a></span>
+                </div>
+                <div class="icon">
+                    <a href="https://www.instagram.com/adrielyyamamotto/" target="_blank"><i class="ph ph-instagram-logo"></i></a>
+                    <span><a href="https://www.instagram.com/adrielyyamamotto" target="_blank">Instagram</a></span>
+                </div>
             </div>
         </div>
+    </header>
+    <div class="main">
+        <section>
+            <div class="sobre" id="sobre">
+                <h4>Olá! Eu sou a Adriely, seja bem-vinde ao meu portfólio!</h4>
+                <div class="txt-sobre">
+                    <p>Estou migrando de área e tenho me dedicado a ampliar meus conhecimentos em desenvolvimento web.</p>
+                    <p>Nesse contexto, o projeto <strong>[ElasNaTech]</strong> surgiu no timing perfeito e representa não só a possibilidade de entrar na área mas também de diminuir o gap de gênero na tecnologia que tem, tradicionalmente, protagonismo masculino.</p>
+                    <p>Já há algum tempo crio conteúdos sobre gênero em minhas redes sociais, especialmente para o 8 de março.</p>
+                    <p>Durante o projeto me encontrei desafiada a cada passo novo mas cercada de mulheres incríveis e acolhedoras, o que fez e faz toda diferença.</p>
+                    <p>Por fim, como não poderia deixar de ser, trago comigo perspectivas das outras área de estudo. Fiz as graduações em História e Relações Econômicas Internacionais.</p>
+                    <p>Ao longos dos anos atuei com diversas frentes, desde gestão de marketing à mais recente, como Head de Costumer Experience B2C.</p>
+                </div>
+                <a href="https://adrielyyamamotto.github.io/CV/" target="_blank" class="cv-online">visualizar currículo completo</a>
+            </div>
+        </section>
+        <section>
+            <div class="linguagens" id="linguagens">
+                <h1>skills</h1>
+                <img src="img/html-icone.png" alt="html-icone" class="lang">
+                <img src="img/css-icone.png" alt="css-icone" class="lang">
+                <img src="img/javascript-icone.png" alt="javascript-icone" class="lang">
+                <img src="img/python-icone.png" alt="python-icone" class="lang">
+                <img src="img/github-icon.png" alt="github-icone" class="lang">
+                <img src="img/wp-icon.png" alt="wordpress-icone" class="lang">
+            </div>
+        </section>
+        <section>
+            <div class="projetos">
+                <h1>projetos desenvolvidos</h1>
+                <p>Confira alguns dos projetos desenvolvidos a partir das linguagens aprendidas dentro do programa [ElasNaTech]23.</p>
+                <a href="projetos.html"><button class="btn">ver projetos</button></a>
+            </div>
+        </section>
+
+
+        <section class="contato" id="contato">
+            <h1 class="contato-title">contato</h1>
+            <div class="container">
+                <form action="https://formsubmit.co/e6abc550636dbb71fc5af62272630405" method="POST">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" required>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" required>
+                    <label for="message">Mensagem</label>
+                    <input type="text" name="message" required>
+                    <input type="hidden" name="_next" value="http://127.0.0.1:3000/thanks.html">
+                    <button class="btn" type="submit">Send</button>
+               </form>
+            </div>
+        </section>
+
     </div>
-    <div class="nav">
-        <div class="sobre">
-            <p>Olá! Eu sou a Adriely, seja bem-vinde ao meu portfólio! Atualmente estou em transição de carreira para desenvolvimento web Front-End.<br>Gosto de projetos inovadores que possibilitem colocar em prática novas habilidades adquiridas e aliar a expertise de outras áreas de atuação.</p>
+    <footer class="navmap">
+        <div class="creditos">
+            <p class="creditos-txt">
+                O projeto [ElasNaTech] é<br>uma parceria entre<br>a JA Brasil, o grupo CCR<br>e a IBM Skillsbuild.
+            </p>
         </div>
-        <div class="linguagens">
-            <h1>linguagens de estudo e atuação</h1>
-            <img src="img/html-icone.png" alt="html-icone" class="lang">
-            <img src="img/css-icone.png" alt="css-icone" class="lang">
-            <img src="img/javascript-icone.png" alt="javascript-icone" class="lang">
-            <img src="img/python-icone.png" alt="python-icone" class="lang">
+        <div class="links">
+            <a href="#home" class="navmap-item">Home</a>
+            <a href="#linguagens" class="navmap-item">Linguagens</a>
+            <a href="projetos.html" class="navmap-item">Projetos</a>
+            <a href="#contato" class="navmap-item">Contato</a>
         </div>
-        <div class="projetos">
-            <h1>projetos desenvolvidos</h1>
-            <p>cards animados aqui</p>
+        <div class="social2">
+            <a href="www.linkedin.com/" target="_blank"><i class="ph ph-linkedin-logo ic2"></i></a>
+            <a href="https://github.com/adrielyyamamotto" target="_blank"><i class="ph ph-github-logo ic2"></i></a>
+            <a href="https://www.instagram.com/adrielyyamamotto/" target="_blank"><i class="ph ph-instagram-logo ic2"></i></a>
         </div>
-    </div>
-    <footer>
-        <p>informações complementares aqui</p>
+    </footer>
+    <footer class="footer">
+        <p>Desenvolvido por <a href="#">Adriely Yamamotto</a>. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
