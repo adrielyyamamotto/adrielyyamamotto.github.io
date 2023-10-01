@@ -114,6 +114,12 @@ section {
     align-items: start;
 }
 
+@media screen and (max-width: 730px) {
+    .txt-sobre {
+        columns: 1;
+    }
+}
+
 .cv-online {
     text-decoration: none;
     font-variant: small-caps;
@@ -150,7 +156,7 @@ h1 {
     height: 100px;
     width: auto;
     border-radius: 100%;
-    box-shadow: 0 3px 9px #720946;
+    box-shadow: 0px 6px 8px #720946;
     margin: 7px;
 }
 
